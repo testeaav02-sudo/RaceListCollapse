@@ -1,0 +1,30 @@
+name: Bug report
+description: Report a tooltip, mouse control, or compatibility problem.
+title: "[Bug] "
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Kenshi, RE_Kenshi, KenshiLib, and Race List Collapse versions.
+    validations:
+      required: true
+  - type: input
+    id: item
+    attributes:
+      label: Affected item
+      description: Exact item name, game language, and whether the item comes from another mod.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: What happened?
+      description: Steps to reproduce, expected behavior, and actual behavior. A cropped screenshot of the tooltip can help.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional details
+      description: Relevant UI mods, resolution, UI scale, and a short RaceListCollapse log excerpt if available. Remove personal information before posting.

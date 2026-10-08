@@ -1,0 +1,48 @@
+RACE LIST COLLAPSE — DEPENDÊNCIAS E REFERÊNCIAS
+
+O código deste plugin está sob GPL-3.0-or-later. A licença GPLv3 integral
+em LICENSE.txt foi obtida do repositório oficial KenshiLib_Examples.
+
+Kenshi e suas bibliotecas de execução
+  Desenvolvedor: Lo-Fi Games.
+  Não redistribuídos neste pacote. São fornecidos pela instalação do jogo.
+
+RE_Kenshi / KenshiLib / exemplos de plugins
+  Mantenedor dos repositórios consultados: BFrizzleFoShizzle (Bryden Frizzell).
+  KenshiLib deriva do trabalho KenshiReclaimer/KenshiLib.
+  https://github.com/BFrizzleFoShizzle/RE_Kenshi
+  https://github.com/BFrizzleFoShizzle/KenshiLib
+  https://github.com/BFrizzleFoShizzle/KenshiLib_Examples
+  Licença dos repositórios KenshiLib e KenshiLib_Examples: GPLv3.
+  As DLLs desses projetos não acompanham este pacote.
+
+Dependências oficiais para desenvolvimento
+  https://github.com/BFrizzleFoShizzle/KenshiLib_Examples_deps
+  Commit utilizado: b566d74bf3d74629cc2fb632a97595b8202993f1
+  Inclui headers/import libraries de KenshiLib, MyGUI, Ogre e Boost 1.60.
+  Elas são obtidas separadamente com Git LFS e mantêm suas próprias licenças.
+  Nenhum desses headers ou import libraries foi copiado para este pacote.
+
+MyGUI
+  https://github.com/MyGUI/mygui
+  Biblioteca de interface utilizada pelo jogo; não redistribuída aqui.
+
+Ogre
+  https://github.com/OGRECave/ogre
+  Biblioteca utilizada pelo jogo; não redistribuída aqui.
+
+Boost
+  https://www.boost.org/users/history/version_1_60_0.html
+  Boost Software License 1.0: https://www.boost.org/LICENSE_1_0.txt
+  Headers e bibliotecas de desenvolvimento não redistribuídos aqui.
+
+Ferramentas Microsoft
+  Visual C++ 2010 x64 16.00.30319.01 e Windows SDK 7.1.
+  Fonte oficial: https://www.microsoft.com/en-us/download/details.aspx?id=8442
+  ISO x64: GRMSDKX_EN_DVD.iso, 598589440 bytes.
+  SHA1 oficial conferido: 9203529F5F70D556A60C37F118A95214E6D10B5A
+  Compilador e SDK não redistribuídos neste pacote.
+
+7-Zip 26.04 foi utilizado somente para extrair ferramentas no ambiente de
+desenvolvimento. Não é necessário para executar o mod e não acompanha o pacote.
+  https://www.7-zip.org/
